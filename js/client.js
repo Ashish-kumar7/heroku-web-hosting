@@ -1,4 +1,4 @@
-const socket=io('http://process.env.HOST:process.env.PORT');
+const socket=io('https://process.env.HOST:process.env.PORT');
 
 const form=document.getElementById('send-container');
 const messageInput=document.getElementById('messageInp');
